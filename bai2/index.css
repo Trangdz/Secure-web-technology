@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+.header-container {
+    display: flex;      
+    align-items: center;
+    padding: 10px;
+}
+.header-left, .header-right {
+    width: 45%;
+    text-align: center;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.header-left img {
+    width: 50px; /* Điều chỉnh kích thước logo */
+    height: auto;
+    margin-right: 10px; /* Tạo khoảng cách 10px giữa logo và các phần tử khác */
+    margin-left: 200px; 
+}
+.header-left p, .header-right p {
+    margin: 0;
+    font-size: 16px;
+}
+.header-right strong {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.underline {
+    border-bottom: 2px solid black; /* Đường kẻ dưới chữ */
+    width: 40%;
+    display: inline-block;
+    margin: 5px 0;
+}
+.details {
+    width: 65%;
+    margin: 0 auto;
+    margin-left: 350px; 
+}
+.details .left, .details .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.details p {
+    margin: 5px ;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}  
+/* Khoảng cách giữa các thẻ h3, h4, h6 */
+h3, h4, h6 {
+    text-align: center;
+    margin: 0;  /* Giữ margin giữa các thẻ h3, h4, h6 là 0 */
+}
+
+/* Khoảng cách trên và dưới của h3 */
+h3 {
+    margin-top: 20px;  /* Khoảng cách trên của h3 */
+}
+
+/* Khoảng cách trên và dưới của h4 */
+h4 {
+    margin-top: 20px;  /* Khoảng cách trên của h4 */
+    margin-bottom: 20px;  /* Khoảng cách dưới của h4 */
+}
+
+/* Khoảng cách trên và dưới của h6 */
+h6 {
+    margin-bottom: 20px;  /* Khoảng cách dưới của h6 */
+}
+

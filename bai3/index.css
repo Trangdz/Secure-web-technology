@@ -1,0 +1,416 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Chiều cao tối thiểu là 100% chiều cao màn hình */
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    background-color: #f0f4f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    background-color: #74ccf5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-image {
+    flex: 0 0 auto;
+    width: 400px;
+    height: 450px;
+    margin-right: 70px;
+    margin-left: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 5px solid #0288d1;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+
+.container-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-text {
+    color: white;
+}
+
+.container-text h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container-text h2 {
+    margin: 10px 0 20px;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.container-text p {
+    margin: 0;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.container-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.left, .right {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Education*/
+.container-education{
+    background-color:white;
+}
+.title-education{
+    font-size: 35px;
+   
+}
+.education-title p {
+    font-size: 20px; /* Thay đổi kích cỡ chữ theo ý muốn */
+    color: #000; /* Thay đổi màu chữ nếu cần */
+   
+}
+
+
+/* Experience */
+
+/* .container-experience{
+    margin-top: 20px;
+    background-color: white;
+    .title-experience{
+        font-size: 35px;
+    }
+    .ex1 ,.ex2{
+        font-size: 20px;
+        color: #000;
+    }
+} */
+
+
+/* activity */
+
+/* .container-activity{
+    margin-top: 20px;
+    background-color: white;
+    .title-activity{
+        font-size: 35px;
+    }
+    .ac1{
+        font-size: 20px;
+        color: #000;
+    }
+} */
+
+
+/* achievenece */
+
+/* .container-achievenece{
+    margin-top: 20px;
+    background-color: white;
+    .title-achievenece{
+        font-size: 35px;
+    }
+    .av1{
+        font-size: 20px;
+        color: #000;
+    }
+} */
+/* 
+LEFT */
+
+.container-education, .container-experience, .container-activity, .container-achievement {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.title-education, .title-experience, .title-activity, .title-achievement {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00aaff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.title-education i, .title-experience i, .title-activity i, .title-achievement i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.education-title h2, .experience-item h3, .activity-item h3, .achievement-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.education-title p, .experience-item p, .activity-item p, .achievement-item p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.experience-list, .activity-list, .achievement-list {
+    margin-top: 5px;
+}
+
+.experience-item, .activity-item, .achievement-item {
+    position: relative;
+    bottom: 35px;
+}
+
+.experience-item::before, .activity-item::before, .achievement-item::before {
+    content: "•";
+    color: #00aaff;
+    font-size: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+    position: relative;
+    top: 48px;
+    
+} 
+
+
+.experience-item h3,.activity-item h3,.achievement-item h3 {
+    margin-left: 15px; /* Để cách với nội dung cạnh phải */
+}
+
+.experience-item p,.activity-item p,.achievement-item p {
+   
+    margin-left: 15px; /* Để cách với nội dung cạnh phải */
+}
+
+
+
+
+
+
+/* contact */
+
+/* .container-contact{
+    margin-top: 20px;
+    background-color: white;
+    .title-contact{
+        font-size: 35px;
+    }
+    .ct1{
+        font-size: 20px;
+        color: #000;
+    }
+} */
+
+.container-contact {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    right: 20px;
+}
+
+.title-contact {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00aaff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title-contact .contact-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-item i {
+    color: #00aaff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.contact-item span {
+    margin-left: 10px;
+}
+
+
+/* skill */
+
+/* .container-skill{
+    margin-top: 20px;
+    background-color: #74ccf5;
+    .title-skill{
+        font-size: 35px;
+    }
+    .sk1{
+        font-size: 20px;
+        color: #000;
+    }
+} */
+
+.container-skill {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    right: 20px;
+    margin-top: 20px;
+}
+
+.title-skill {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00aaff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title-skill .skill-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    font-size: 18px;
+    flex: 1;
+}
+
+.dots {
+    display: flex;
+    gap: 5px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.dot.filled {
+    background-color: #00aaff;
+}
+
+.dot.empty {
+    background-color: #333;
+}
+
+
+/* interest */
+
+/* .container-interest{
+    margin-top: 20px;
+    background-color:white;
+    .title-interest{
+        font-size: 35px;
+    }
+    .it1{
+        font-size: 20px;
+        color: #000;
+    }
+} */
+.container-interest {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    right: 20px;
+    margin-top: 20px;
+}
+
+.title-interest {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00aaff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title-interest .interest-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.interest-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.interest-item {
+    display: flex;
+    align-items: center;
+}
+
+.interest-item .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00aaff;
+    margin-right: 10px;
+}
+
+.interest-item p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.left, .right{
+    background-color: #f0f4f5;
+}
+.container{
+    background-color: #f0f4f5;
+}

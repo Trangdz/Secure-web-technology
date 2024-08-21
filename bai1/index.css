@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    /* Điều chỉnh chiều rộng container */
+    max-width: 1400px;
+    /* Tăng chiều rộng tối đa lên gấp đôi */
+    background-color: #dad6d6;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 44px;
+    /* Tăng padding gấp đôi */
+    background-color: #edecec;
+    border-bottom: 2px solid #ddd;
+}
+
+.header-menu h1 {
+    margin: 0;
+    font-size: 44px;
+    /* Tăng kích thước font gấp đôi */
+    color: #0073e6;
+}
+
+.header-menu h3 {
+    margin: 0;
+    font-size: 30px;
+    /* Tăng kích thước font gấp đôi */
+    color: #a8a8a8;
+}
+
+.header-menu div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    gap: 36px;
+    /* Tăng khoảng cách giữa các mục menu */
+}
+
+.header-menu div:last-child div {
+    font-size: 30px;
+    /* Tăng kích thước font gấp đôi */
+    color: #555;
+}
+
+.header-menu div:last-child .trangchu {
+    font-weight: bold;
+}
+
+.header-menu .trangchu:hover {
+    background-color: rgb(254, 252, 252);
+    color: black;
+}
+
+.header-menu .gioithieu:hover {
+    background-color: rgb(254, 252, 252);
+    color: black;
+}
+
+.header-menu .congviec:hover {
+    background-color: rgb(254, 252, 252);
+    color: black;
+}
+
+.header-menu .mangxahoi:hover {
+    background-color: rgb(254, 252, 252);
+    color: black;
+}
+
+.header-menu .lienhe:hover {
+    background-color: rgb(254, 252, 252);
+    color: black;
+}
+
+.content {
+    display: flex;
+    padding: 36px;
+    /* Tăng padding gấp đôi */
+}
+
+.content-program {
+    width: 35%;
+    /* Giữ nguyên tỷ lệ */
+    background-color: #edecec;
+    padding: 24px;
+    /* Tăng padding gấp đôi */
+    border-radius: 16px;
+    margin-right: 36px;
+    /* Tăng khoảng cách giữa các phần */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-program h4 {
+    margin: 0 0 24px;
+    /* Tăng margin gấp đôi */
+    font-size: 34px;
+    /* Tăng kích thước font gấp đôi */
+    color: #0073e6;
+}
+
+.content-program ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-program ul li {
+    margin-bottom: 18px;
+    /* Tăng khoảng cách giữa các dòng gấp đôi */
+    font-size: 30px;
+    /* Tăng kích thước font gấp đôi */
+    color: #555;
+}
+
+.content-program .btn-contact {
+    display: inline-block;
+    padding: 18px 36px;
+    /* Tăng kích thước nút gấp đôi */
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 36px;
+    /* Tăng khoảng cách trên nút */
+    display: block;
+}
+
+.content-infor {
+    width: 65%;
+    /* Giữ nguyên tỷ lệ */
+    padding: 24px;
+    /* Tăng padding gấp đôi */
+    background-color: #edecec;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-infor h2 {
+    font-size: 44px;
+    /* Tăng kích thước font gấp đôi */
+    color: #0073e6;
+    margin-top: 0;
+}
+
+.content-infor img {
+    float: left;
+    margin-right: 36px;
+    /* Tăng khoảng cách giữa hình ảnh và văn bản gấp đôi */
+    border-radius: 16px;
+    width: 220px;
+    /* Tăng kích thước hình ảnh gấp đôi */
+    height: 220px;
+}
+
+.content-infor p {
+    margin: 10px 0;
+    /* Tăng khoảng cách giữa các đoạn văn gấp đôi */
+    font-size: 30px;
+    /* Tăng kích thước font gấp đôi */
+    color: #333;
+}
